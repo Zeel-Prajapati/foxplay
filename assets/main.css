@@ -1,0 +1,2003 @@
+body {
+    /* display: flex; */
+    background-size: cover;
+    background-position: top;
+    margin: 0px;
+    padding: 0px;
+    /* top: 0px; */
+    /* overflow: hidden; */
+    width: 100%;
+    background-color: #0f0f0f;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+    top: 0%;
+    width: 100%;
+    height: 85px;
+    position: fixed;
+    background-color: #1a1a1a;
+}
+
+ul li {}
+
+ul li a {
+    font-size: 50px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.icon {
+    width: 70px;
+    padding-left: 20px;
+    padding-top: 8px;
+}
+
+.name {
+    font-size: 32px;
+    font: bolder;
+    /* padding-left: 10px; */
+}
+
+.name1 {
+    width: 20px;
+    /* margin-top: 1.1pc; */
+    margin-left: 5px;
+    font-family: "Orbitron", sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    /* font-optical-sizing: auto; */
+    /* font-style: normal; */
+    /* font-weight: <weight>; */
+}
+
+.navigation {
+    display: flex;
+    padding-left: 310px;
+    /* margin: 10pc; */
+    align-items: center;
+}
+
+.nav {
+    padding: 20px;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.mobile-nav-icon {
+    display: none;
+}
+
+.search {
+    /* width: 30%; */
+    display: flex;
+    align-self: center;
+    /* width: 80rcap; */
+    /* height: 20%; */
+    padding-left: 120px;
+    /* float: left; */
+    /* border: solid; */
+    /* border-width: 10px; */
+    /* border-radius: 90px; */
+}
+
+input {
+    /* float: left; */
+    display: flex;
+    background-color: #1e1e1e;
+    color: #ffffff;
+    border: 1px solid #2a2a2a;
+    /* border-width: 10px; */
+    border-radius: 10px;
+    padding: 10px 15px;
+    width: 250px;
+    height: 37px;
+    font-size: 20px;
+    /* border: none; */
+    /* border-color:  #2a2a2a; */
+    /* border-radius: 80px; */
+    /* padding-left: 50px; */
+    /* padding-right: 50px; */
+}
+
+input::placeholder {
+    color: #777777;
+}
+
+input:focus {
+    border-color: #FF6B00;
+    outline: none;
+}
+
+.nav:hover {
+    color: #FF6B00;
+}
+
+.hdg1 {
+    font-size: 35px;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    letter-spacing: 5px;
+    word-spacing: 5px;
+    font-family: "Orbitron", sans-serif;
+    font-size: 33px;
+}
+
+.sub1 {
+    font-size: 18px;
+    padding-left: 30px;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    color: #B3B3B3;
+}
+
+.hero {
+    background-color: #1b1b1b;
+    /* background: linear-gradient(90deg,#FF6B00,#FF8C42); */
+    padding-bottom: 120px;
+    margin-left: 30px;
+    margin-top: 115px;
+    margin-right: 800px;
+    height: 350px;
+}
+
+.btn {
+    /* display: flex; */
+    margin-top: -100px;
+    justify-self: center;
+}
+
+.main {
+    padding: 12px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: none;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    corner-shape: bevel;
+    font-family: "Orbitron", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    background: #FF6B00;
+    color: white;
+    letter-spacing: 4px;
+}
+
+.main:hover {
+    background: #FF8C42;
+}
+
+.image {
+    display: grid;
+    display: flex;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    flex-wrap: wrap;
+    margin: 0;
+    /* padding: 20px; */
+    gap: 10px;
+    width: 100%;
+    padding-left: 640px;
+    margin-top: -250px;
+}
+
+.img {
+    /* display: flex; */
+    /* display: grid; */
+    /* flex-wrap: wrap; */
+    /* height: auto; */
+    /* width: 220px; */
+    /* padding-left: 15px; */
+}
+
+.img1 {
+    padding-left: 25px;
+    margin-left: -10px;
+    padding-bottom: 15px;
+    width: 250px;
+}
+
+.img2 {
+    width: 252px;
+    /* height: 200px; */
+    margin-right: -200px;
+    /* padding-left: 10px; */
+}
+
+.img3 {
+    /* width: 300px; */
+    padding-right: -250px;
+    /* padding-top: 10px; */
+    margin-left: -25px;
+    margin-top: -10px;
+}
+
+.img4 {
+    width: 247px;
+    margin-right: -200px;
+    /* padding-left: 10px; */
+    /* padding-top: 10px; */
+    margin-top: -10px;
+}
+
+.section {
+    /* font-size: 20px; */
+}
+
+.sec {
+    font-size: 30px;
+    padding-top: 15px;
+    padding-left: 40px;
+    background-color: #1b1b1b;
+    padding-bottom: 15px;
+    font-weight: 400;
+}
+
+.cards {
+    display: grid;
+    display: flex;
+    flex-wrap: wrap;
+    /* width: 100%; */
+    /* padding-left: 10px; */
+    /* margin-top: -200px; */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    /* border: solid; */
+    /* background-color: #1b1b1b; */
+    /* border-width: 300px; */
+    /* background-color: #1b1b1b; */
+    /* background: linear-gradient(90deg,#FF6B00,#FF8C42); */
+    /* padding-bottom: 105px; */
+    gap: 10px;
+    padding: 0 0 80px 30px;
+    /* padding-bottom: 80px; */
+    /* margin-bottom: 30px; */
+    /* margin-left: 30px; */
+    /* margin-top: 30px; */
+    /* margin-right: 10px; */
+    height: 200px;
+}
+
+
+.card {
+    /* width: 300px; */
+    /* align-content: center; */
+    /* justify-self: center; */
+    /* display: flex; */
+    /* display: grid; */
+    background-color: #1b1b1b;
+    width: 250px;
+    /* border-top-left-radius: 16px; */
+    /* border-top-right-radius: 16px; */
+    border-radius: 16px;
+    cursor: pointer;
+    /* margin-top: -20px; */
+    /* padding-bottom: 20px; */
+    /* transition: 0.25s ease; */
+}
+
+/* .card:hover{
+    transform: translateY(-4px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+} */
+
+.gamepage {
+    padding-top: 110px;
+}
+
+.game {
+    width: 250px;
+    /* border-radius: 16px; */
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+.gmname {
+    padding-left: 10px;
+    margin-top: -0px;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.aname {
+    text-decoration: none;
+}
+
+.aname:hover {
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+.devname {
+    padding-left: 10px;
+    margin-top: -9px;
+    font-size: 11px;
+    color: #B3B3B3;
+    font-weight: 400;
+}
+
+.tag {
+    padding-left: 10px;
+    color: #FF6B00;
+    font-size: 12px;
+    margin-top: -13px;
+    font-weight: 400;
+}
+
+.bemuse {
+    margin-top: 70px;
+}
+
+.bemusename {
+    margin-top: 50px;
+}
+
+.frame {
+    padding-top: 120px;
+    /* padding-left: 190px; */
+    display: flex;
+    justify-content: center;
+}
+
+.quadrilactic-frame {
+    padding-top: 140px;
+    /* padding-left: 190px; */
+    display: flex;
+    justify-content: center;
+    zoom: 65%;
+}
+
+.gamename {
+    /* margin-left: 277px; */
+    font-size: 25px;
+    display: flex;
+    margin-left: 570px;
+    text-decoration: underline;
+}
+
+.content {
+    /* padding-top: 0px; */
+    /* font-size: 10px; */
+    font-size: 16px;
+    margin-left: 277px;
+    padding-right: 255px;
+}
+
+.link {
+    color: #FF6B00;
+    /* text-decoration: none; */
+}
+
+.discription {}
+
+.information {}
+
+.section {
+    /* word-spacing: 460px; */
+    font-size: 18px;
+    margin-top: 25px;
+    padding-top: 3px;
+    padding-left: 100px;
+    background-color: #1b1b1b;
+    padding-bottom: 0px;
+    font-weight: 400;
+}
+
+.footer-head {
+    word-spacing: 430px;
+    font-size: 15px;
+    /* padding-top: 15px; */
+    /* padding-left: 100px; */
+    background-color: #1b1b1b;
+    /* padding-bottom: 15px; */
+    font-weight: 400;
+    color: #ffffff;
+    padding-bottom: 10px;
+    gap: 400px;
+}
+
+.footer-body {
+    font-size: 12px;
+    color: #B3B3B3;
+    margin-top: -10px;
+}
+
+.footer-nav {
+    margin-top: -59px;
+    padding-left: 493px;
+    padding-bottom: 30px;
+}
+
+.footer-link {
+    color: #FF6B00;
+    font-size: 12px;
+    margin-top: -250px;
+}
+
+.footer-profile {
+    /* margin-top: -110px; */
+    /* padding-left: 1010px; */
+    /* padding-bottom: 55px; */
+    /* padding: 0; */
+    /* margin: 0; */
+    /* margin-top: -40px; */
+    /* display: flex; */
+    /* margin-top: -90px; */
+    /* padding-left: 1010px; */
+    /* padding-bottom: 30px; */
+    margin-top: -90px;
+    padding-left: 1010px;
+    padding-bottom: 30px;
+}
+
+.git {}
+
+.footer-profile-link {
+    /* color: #FF6B00; */
+    /* margin-top: -110px; */
+    /* padding-left: 520px; */
+    /* margin-left: 520px; */
+    /* padding-top: 20px; */
+    color: #FF6B00;
+    font-size: 12px;
+    margin-top: -250px;
+    /* padding-bottom: 55px; */
+    /* padding-bottom: 0; */
+    /* margin-top: -40px; */
+    /* font-size: 12px; */
+    /* margin-left: 100px; */
+    /* margin-bottom: 100px; */
+    /* margin-top: -850px; */
+    /* margin-top: 80px; */
+    /* padding-left: 493px; */
+    /* padding-bottom: 30px; */
+}
+
+/* .footer {
+  background: #2a2a2a;
+  color: #ffffff;
+  margin-top: 80px;
+  padding: 50px 20px 20px;
+  border-top: 1px solid #1f2937;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: auto;
+
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.footer h2,
+.footer h3 {
+  margin-bottom: 15px;
+}
+
+.footer p {
+  color: #9ca3af;
+  line-height: 1.6;
+}
+
+.footer a {
+  display: block;
+  color: #d1d5db;
+  text-decoration: none;
+  margin-bottom: 10px;
+
+  transition: 0.3s;
+}
+
+.footer a:hover {
+  color: #f97316;
+}
+
+.footer-bottom {
+  border-top: 1px solid #1f2937;
+  margin-top: 40px;
+  padding-top: 20px;
+
+  text-align: center;
+}
+
+.footer-note {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #6b7280;
+} */
+
+.hextris_card {
+    width: 250px;
+    height: 198px;
+    /* border-radius: 16px; */
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+.one-word-main-name {
+    /* margin-left: 300px; */
+    font-size: 25px;
+    display: flex;
+    margin-left: 620px;
+    text-decoration: underline;
+}
+
+.selecte::selection {
+    color: #ffffff;
+    background-color: #FF6B00;
+}
+
+.event-horizon-png {
+    height: 199px;
+    width: 250px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+/* Mobile-S */
+@media (min-width: 320px) and (max-width: 394px) {
+    body {}
+
+    ul {
+        width: 100%;
+        height: 70px;
+    }
+
+    .icon {
+        width: 40px;
+        padding-top: 7px;
+        padding-left: 10px;
+    }
+
+    .name1 {
+        width: 10px;
+        margin-top: 12px;
+    }
+
+    .name {
+        font-size: 18px;
+    }
+
+    .navigation {
+        display: none;
+    }
+
+    .mobile-nav-icon {
+        display: flex;
+        padding-left: 35px;
+        align-items: center;
+    }
+
+    .nav {
+        font-size: 18px;
+        padding: 12px;
+    }
+
+    .search {
+        padding-left: 7px;
+    }
+
+    input {
+        padding: 3px 7px;
+        width: 100%;
+        height: 35px;
+        font-size: 15px;
+    }
+
+    .hero {
+        padding-bottom: 12px;
+        margin-left: 20px;
+        margin-top: 95px;
+        margin-right: 20px;
+        height: 350px;
+    }
+
+    .hdg1 {
+        padding-left: 20px;
+        padding-top: 20px;
+        padding-bottom: 7px;
+        font-size: 25px;
+    }
+
+    .sub1 {
+        font-size: 15px;
+        padding-left: 20px;
+    }
+
+    .btn {
+        margin-top: 260px;
+    }
+
+    .img1 {
+        display: none;
+    }
+
+    .img2 {
+        display: none;
+    }
+
+    .img3 {
+        display: none;
+    }
+
+    .img4 {
+        display: none;
+    }
+
+    .sec {
+        font-size: 25px;
+        padding-top: 15px;
+        padding-left: 25px;
+        padding-bottom: 15px;
+    }
+
+    .new {
+        padding-top: 220px;
+    }
+
+    .cards {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 10px;
+        padding: 0 0 60px 20px;
+        height: 70px;
+    }
+
+    .card {
+        width: 100px;
+    }
+
+    .gamepage {
+        padding-top: 90px;
+    }
+
+    .game {
+        width: 100px;
+    }
+
+    .gmname {
+        padding-left: 5px;
+        margin-top: -0px;
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    .devname {
+        padding-left: 5px;
+        margin-top: -11px;
+        font-size: 8px;
+        font-weight: 400;
+    }
+
+    .tag {
+        padding-left: 5px;
+        font-size: 10px;
+        margin-top: -9px;
+        font-weight: 400;
+    }
+
+    .bemuse {
+        margin-top: 30px;
+    }
+
+    .bemusename {
+        margin-top: 30px;
+    }
+
+    .hextris_card {
+        width: 100px;
+        height: 80px;
+        /* border-radius: 16px; */
+        border-top-left-radius: 16px;
+        border-top-right-radius: 16px;
+    }
+
+    .event-horizon-png {
+        height: 80px;
+        width: 100px;
+    }
+
+    .frame {
+        width: 100%;
+        height: 500px;
+        padding-top: 120px;
+    }
+
+    .quadrilactic-frame {
+        width: 100%;
+        height: 500px;
+        padding-top: 140px;
+        zoom: 50%;
+    }
+
+    .quadrilactic-contant {
+        padding-top: 150px;
+    }
+
+    .gamename {
+        /* margin-left: 277px; */
+        font-size: 25px;
+        display: flex;
+        margin-left: 20%;
+        text-decoration: underline;
+    }
+
+    .content {
+        /* padding-top: 0px; */
+        /* font-size: 10px; */
+        font-size: 16px;
+        margin-left: 5%;
+        padding-right: 10%;
+    }
+
+    .one-word-main-name {
+        /* margin-left: 300px; */
+        margin-left: 40%;
+    }
+}
+
+/* Mobile-M */
+@media (min-width: 395px) and (max-width: 525px) {
+    body {}
+
+    ul {
+        width: 100%;
+        height: 70px;
+    }
+
+    .icon {
+        width: 50px;
+        padding-top: 12px;
+
+    }
+
+    .name {
+        font-size: 20px;
+    }
+
+    .name1 {
+        width: 10px;
+        margin-top: 9px;
+    }
+
+    .navigation {
+        display: none;
+    }
+
+    .mobile-nav-icon {
+        display: flex;
+        padding-left: 55px;
+        align-items: center;
+    }
+
+    .nav {
+        font-size: 18px;
+        padding: 12px;
+    }
+
+    .search {
+        padding-left: 15px;
+    }
+
+    input {
+        padding: 3px 7px;
+        width: 50px;
+        height: 35px;
+        font-size: 15px;
+    }
+
+    .hero {
+        padding-bottom: 10px;
+        margin-left: 20px;
+        margin-top: 95px;
+        margin-right: 20px;
+        height: 350px;
+    }
+
+    .hdg1 {
+        padding-left: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 25px;
+    }
+
+    .sub1 {
+        font-size: 15px;
+        padding-left: 20px;
+    }
+
+    .btn {
+        margin-top: 280px;
+    }
+
+    .img1 {
+        display: none;
+    }
+
+    .img2 {
+        display: none;
+    }
+
+    .img3 {
+        display: none;
+    }
+
+    .img4 {
+        display: none;
+    }
+
+    .sec {
+        font-size: 25px;
+        padding-top: 15px;
+        padding-left: 25px;
+        padding-bottom: 15px;
+    }
+
+    .new {
+        padding-top: 305px;
+    }
+
+    .cards {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 10px;
+        padding: 0 0 60px 15px;
+        height: 70px;
+    }
+
+    .card {
+        width: 120px;
+    }
+
+    .gamepage {
+        padding-top: 90px;
+    }
+
+    .game {
+        width: 120px;
+    }
+
+    .gmname {
+        padding-left: 5px;
+        margin-top: -0px;
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    .devname {
+        padding-left: 5px;
+        margin-top: -9px;
+        font-size: 10px;
+        font-weight: 400;
+    }
+
+    .tag {
+        padding-left: 5px;
+        font-size: 12px;
+        margin-top: -10px;
+        font-weight: 400;
+    }
+
+    .bemuse {
+        margin-top: 30px;
+    }
+
+    .bemusename {
+        margin-top: 30px;
+    }
+
+    .hextris_card {
+        width: 120px;
+        height: 95px;
+        /* border-radius: 16px; */
+    }
+
+    .event-horizon-png {
+        height: 95px;
+        width: 120px;
+    }
+
+    .frame {
+        width: 100%;
+        height: 500px;
+        padding-top: 120px;
+    }
+
+    .quadrilactic-frame {
+        width: 100%;
+        height: 500px;
+        padding-top: 120px;
+        zoom: 70%;
+    }
+
+    .quadrilactic-contant {
+        padding-top: 230px;
+    }
+
+    .gamename {
+        /* margin-left: 277px; */
+        font-size: 25px;
+        display: flex;
+        margin-left: 20%;
+        text-decoration: underline;
+    }
+
+    .content {
+        /* padding-top: 0px; */
+        /* font-size: 10px; */
+        font-size: 16px;
+        margin-left: 5%;
+        padding-right: 10%;
+    }
+
+    .one-word-main-name {
+        /* margin-left: 300px; */
+        margin-left: 40%;
+    }
+}
+
+/* Tablet-S */
+@media (min-width: 525px) and (max-width: 654px) {
+    body {}
+
+    ul {
+        width: 100%;
+        height: 70px;
+    }
+
+    .icon {
+        width: 50px;
+        padding-top: 12px;
+
+    }
+
+    .name {
+        font-size: 20px;
+    }
+
+    .name1 {
+        width: 10px;
+        margin-top: 9px;
+    }
+
+    .navigation {
+        /* display: none; */
+        display: flex;
+        padding-left: 40px;
+        /* margin: 10pc; */
+        align-items: center;
+
+    }
+
+    .mobile-nav-icon {
+        display: none;
+    }
+
+    .nav {
+        font-size: 15px;
+        padding: 12px;
+    }
+
+    .search {
+        padding-left: 15px;
+    }
+
+    input {
+        padding: 3px 7px;
+        width: 100%;
+        height: 35px;
+        font-size: 15px;
+    }
+
+    .hero {
+        padding-bottom: 10px;
+        margin-left: 20px;
+        margin-top: 95px;
+        margin-right: 20px;
+        height: 350px;
+    }
+
+    .hdg1 {
+        padding-left: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 25px;
+    }
+
+    .sub1 {
+        font-size: 15px;
+        padding-left: 20px;
+    }
+
+    .btn {
+        margin-top: 280px;
+    }
+
+    .img1 {
+        display: none;
+    }
+
+    .img2 {
+        display: none;
+    }
+
+    .img3 {
+        display: none;
+    }
+
+    .img4 {
+        display: none;
+    }
+
+    .sec {
+        font-size: 25px;
+        padding-top: 15px;
+        padding-left: 25px;
+        padding-bottom: 15px;
+    }
+
+    .new {
+        padding-top: 300px;
+    }
+
+    .cards {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 10px;
+        padding: 0 0 60px 15px;
+        height: 70px;
+    }
+
+    .card {
+        width: 120px;
+    }
+
+    .gamepage {
+        padding-top: 90px;
+    }
+
+    .game {
+        width: 120px;
+    }
+
+    .gmname {
+        padding-left: 5px;
+        margin-top: -0px;
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    .devname {
+        padding-left: 5px;
+        margin-top: -9px;
+        font-size: 10px;
+        font-weight: 400;
+    }
+
+    .tag {
+        padding-left: 5px;
+        font-size: 12px;
+        margin-top: -10px;
+        font-weight: 400;
+    }
+
+    .bemuse {
+        margin-top: 30px;
+    }
+
+    .bemusename {
+        margin-top: 30px;
+    }
+
+    .hextris_card {
+        width: 120px;
+        height: 95px;
+        /* border-radius: 16px; */
+    }
+
+    .event-horizon-png {
+        height: 95px;
+        width: 120px;
+    }
+
+    .frame {
+        width: 100%;
+        height: 500px;
+        padding-top: 120px;
+    }
+
+    .quadrilactic-frame {
+        width: 100%;
+        height: 500px;
+        padding-top: 120px;
+        zoom: 70%;
+    }
+
+    .quadrilactic-contant {
+        padding-top: 230px;
+    }
+
+    .gamename {
+        /* margin-left: 277px; */
+        font-size: 25px;
+        display: flex;
+        margin-left: 20%;
+        text-decoration: underline;
+    }
+
+    .content {
+        /* padding-top: 0px; */
+        /* font-size: 10px; */
+        font-size: 16px;
+        margin-left: 5%;
+        padding-right: 10%;
+    }
+
+    .one-word-main-name {
+        /* margin-left: 300px; */
+        margin-left: 40%;
+    }
+}
+
+/* Tablet-M */
+@media (min-width: 655px) and (max-width: 767px) {
+    body {}
+
+    ul {
+        width: 100%;
+        height: 70px;
+    }
+
+    .icon {
+        width: 50px;
+        padding-left: 20px;
+        padding-top: 12px;
+    }
+
+    .name {
+        font-size: 20px;
+    }
+
+    .name1 {
+        width: 10px;
+        margin-top: 9px;
+    }
+
+    .navigation {
+        padding-left: 60px;
+        /* margin: 10pc; */
+        align-items: center;
+
+    }
+
+    .mobile-nav-icon {
+        display: none;
+    }
+
+    .nav {
+        font-size: 15px;
+        padding: 12px;
+    }
+
+    .search {
+        padding-left: 15px;
+    }
+
+    input {
+        padding: 3px 7px;
+        width: 100%;
+        height: 35px;
+        font-size: 15px;
+    }
+
+    .hero {
+        padding-bottom: 120px;
+        margin-left: 30px;
+        margin-top: 115px;
+        margin-right: 10px;
+        height: 350px;
+    }
+
+    .hdg1 {
+        padding-left: 30px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        font-size: 35px;
+    }
+
+    .sub1 {
+        font-size: 18px;
+        padding-left: 30px;
+    }
+
+    .btn {
+        margin-top: 320px;
+    }
+
+    .img1 {
+        display: none;
+    }
+
+    .img2 {
+        display: none;
+    }
+
+    .img3 {
+        display: none;
+    }
+
+    .img4 {
+        display: none;
+    }
+
+    .sec {
+        font-size: 30px;
+        padding-top: 15px;
+        padding-left: 40px;
+        width: 100%;
+        padding-bottom: 15px;
+    }
+
+    .new {
+        padding-top: 100px;
+    }
+
+    .cards {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 10px;
+        padding: 0 0 60px 15px;
+        height: 70px;
+    }
+
+    .card {
+        width: 120px;
+    }
+
+    .gamepage {
+        padding-top: 90px;
+    }
+
+    .game {
+        width: 120px;
+    }
+
+    .gmname {
+        padding-left: 5px;
+        margin-top: -0px;
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    .devname {
+        padding-left: 5px;
+        margin-top: -9px;
+        font-size: 10px;
+        font-weight: 400;
+    }
+
+    .tag {
+        padding-left: 5px;
+        font-size: 12px;
+        margin-top: -10px;
+        font-weight: 400;
+    }
+
+    .bemuse {
+        margin-top: 30px;
+    }
+
+    .bemusename {
+        margin-top: 30px;
+    }
+
+    .hextris_card {
+        width: 120px;
+        height: 95px;
+        /* border-radius: 16px; */
+    }
+
+    .event-horizon-png {
+        height: 95px;
+        width: 120px;
+    }
+
+    .frame {
+        width: 100%;
+        height: 500px;
+        padding-top: 120px;
+    }
+
+    .quadrilactic-frame {
+        width: 100%;
+        height: 500px;
+        padding-top: 120px;
+        zoom: 70%;
+    }
+
+    .quadrilactic-contant {
+        padding-top: 230px;
+    }
+
+    .gamename {
+        /* margin-left: 277px; */
+        font-size: 25px;
+        display: flex;
+        margin-left: 20%;
+        text-decoration: underline;
+    }
+
+    .content {
+        /* padding-top: 0px; */
+        /* font-size: 10px; */
+        font-size: 16px;
+        margin-left: 5%;
+        padding-right: 10%;
+    }
+
+    .one-word-main-name {
+        /* margin-left: 300px; */
+        margin-left: 40%;
+    }
+}
+
+/* Tablet-M */
+@media (min-width: 768px) and (max-width: 1023px) {
+    body {}
+
+    ul {
+        width: 100%;
+        height: 70px;
+    }
+
+    .icon {
+        width: 50px;
+        padding-left: 20px;
+        padding-top: 12px;
+    }
+
+    .name {
+        font-size: 20px;
+    }
+
+    .name1 {
+        width: 10px;
+        margin-top: 9px;
+    }
+
+    .navigation {
+        padding-left: 60px;
+        /* margin: 10pc; */
+        align-items: center;
+
+    }
+
+    .mobile-nav-icon {
+        display: none;
+    }
+
+    .nav {
+        font-size: 15px;
+        padding: 12px;
+    }
+
+    .search {
+        padding-left: 15px;
+    }
+
+    input {
+        padding: 3px 7px;
+        width: 100%;
+        height: 35px;
+        font-size: 15px;
+    }
+
+    .hero {
+        padding-bottom: 120px;
+        margin-left: 30px;
+        margin-top: 115px;
+        margin-right: 180px;
+        height: 350px;
+    }
+
+    .hdg1 {
+        padding-left: 30px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        font-size: 35px;
+    }
+
+    .sub1 {
+        font-size: 18px;
+        padding-left: 30px;
+    }
+
+    .btn {
+        margin-top: -55px;
+    }
+
+    .image {
+        padding-left: 540px;
+        margin-top: -330px;
+    }
+
+    .img1 {
+        padding-left: 100px;
+        margin-left: 10px;
+        padding-top: 80px;
+        padding-bottom: 15px;
+        width: 240px;
+    }
+
+    .img2 {
+        width: 238px;
+        /* height: 200px; */
+        margin-right: -230px;
+        /* padding-left: 40px; */
+        padding-top: 80px;
+        /* padding-left: 10px; */
+    }
+
+    .img3 {
+        /* width: 200px; */
+        padding-right: -250px;
+        /* padding-top: 10px; */
+        padding-left: 210px;
+        margin-top: -10px;
+    }
+
+    .img4 {
+        display: none;
+    }
+
+    .sec {
+        font-size: 30px;
+        padding-top: 15px;
+        padding-left: 40px;
+        width: 150%;
+        padding-bottom: 15px;
+    }
+
+    .new {
+        padding-top: 350px;
+    }
+
+    .cards {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 10px;
+        padding: 0 0 60px 15px;
+        height: 70px;
+    }
+
+    .card {
+        width: 180px;
+    }
+
+    .gamepage {
+        padding-top: 90px;
+    }
+
+    .game {
+        width: 180px;
+    }
+
+    .gmname {
+        padding-left: 5px;
+        margin-top: -0px;
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    .devname {
+        padding-left: 5px;
+        margin-top: -9px;
+        font-size: 10px;
+        font-weight: 400;
+    }
+
+    .tag {
+        padding-left: 5px;
+        font-size: 12px;
+        margin-top: -10px;
+        font-weight: 400;
+    }
+
+    .bemuse {
+        margin-top: 30px;
+    }
+
+    .bemusename {
+        margin-top: 30px;
+    }
+
+    .hextris_card {
+        width: 180px;
+        height: 145px;
+        /* border-radius: 16px; */
+    }
+
+    .event-horizon-png {
+        height: 145px;
+        width: 180px;
+    }
+
+    .frame {
+        width: 100%;
+        height: 500px;
+        padding-top: 120px;
+    }
+
+    .quadrilactic-frame {
+        width: 100%;
+        height: 500px;
+        padding-top: 120px;
+        zoom: 70%;
+    }
+
+    .quadrilactic-contant {
+        padding-top: 230px;
+    }
+
+    .gamename {
+        /* margin-left: 277px; */
+        font-size: 25px;
+        display: flex;
+        margin-left: 20%;
+        text-decoration: underline;
+    }
+
+    .content {
+        /* padding-top: 0px; */
+        /* font-size: 10px; */
+        font-size: 16px;
+        margin-left: 5%;
+        padding-right: 10%;
+    }
+
+    .one-word-main-name {
+        /* margin-left: 300px; */
+        margin-left: 40%;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1199px) {
+    body {}
+
+    ul {
+        width: 100%;
+        height: 85px;
+    }
+
+    .icon {
+        width: 70px;
+        padding-left: 20px;
+        padding-top: 8px;
+    }
+
+    .name {
+        font-size: 32px;
+    }
+
+    .name1 {
+        width: 20px;
+        margin-left: 5px;
+    }
+
+    .navigation {
+        padding-left: 310px;
+        /* margin: 10pc; */
+        align-items: center;
+
+    }
+
+    .mobile-nav-icon {
+        display: none;
+    }
+
+    .nav {
+        font-size: 20px;
+        padding: 20px;
+    }
+
+    .search {
+        padding-left: 120px;
+    }
+
+    input {
+        padding: 10px 15px;
+        width: 100%;
+        height: 37px;
+        font-size: 20px;
+    }
+
+    .hero {
+        padding-bottom: 120px;
+        margin-left: 30px;
+        margin-top: 115px;
+        margin-right: 450px;
+        height: 350px;
+    }
+
+    .hdg1 {
+        padding-left: 30px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        font-size: 35px;
+    }
+
+    .sub1 {
+        font-size: 18px;
+        padding-left: 30px;
+    }
+
+    .btn {
+        margin-top: -55px;
+    }
+
+    .image {
+        padding-left: 540px;
+        margin-top: -330px;
+    }
+
+    .img1 {
+        padding-left: 100px;
+        margin-left: 10px;
+        padding-top: 80px;
+        padding-bottom: 15px;
+        width: 240px;
+    }
+
+    .img2 {
+        width: 238px;
+        /* height: 200px; */
+        margin-right: -230px;
+        /* padding-left: 40px; */
+        padding-top: 80px;
+        /* padding-left: 10px; */
+    }
+
+    .img3 {
+        /* width: 200px; */
+        padding-right: -250px;
+        /* padding-top: 10px; */
+        padding-left: 210px;
+        margin-top: -10px;
+    }
+
+    .img4 {
+        display: none;
+    }
+
+    .sec {
+        font-size: 30px;
+        padding-top: 15px;
+        padding-left: 40px;
+        width: 100%;
+        padding-bottom: 15px;
+    }
+
+    .new {
+        padding-top: 300px;
+    }
+
+    .cards {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 10px));
+        /* gap: 10px; */
+        padding: 0 0 80px 30px;
+        height: 200px;
+    }
+
+    .card {
+        width: 250px;
+    }
+
+    .gamepage {
+        padding-top: 110px;
+    }
+
+    .game {
+        width: 250px;
+    }
+
+    .gmname {
+        padding-left: 5px;
+        margin-top: -0px;
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    .devname {
+        padding-left: 5px;
+        margin-top: -9px;
+        font-size: 10px;
+        font-weight: 400;
+    }
+
+    .tag {
+        padding-left: 5px;
+        font-size: 12px;
+        margin-top: -10px;
+        font-weight: 400;
+    }
+
+    .bemuse {
+        margin-top: 30px;
+    }
+
+    .bemusename {
+        margin-top: 30px;
+    }
+
+    .hextris_card {
+        width: 250px;
+        height: 195px;
+        /* border-radius: 16px; */
+    }
+
+    .event-horizon-png {
+        height: 195px;
+        width: 250px;
+    }
+
+    .frame {
+        width: 100%;
+        height: 500px;
+        padding-top: 120px;
+    }
+
+    .quadrilactic-frame {
+        width: 100%;
+        height: 500px;
+        padding-top: 120px;
+        zoom: 70%;
+    }
+
+    .quadrilactic-contant {
+        padding-top: 230px;
+    }
+
+    .gamename {
+        /* margin-left: 277px; */
+        font-size: 25px;
+        display: flex;
+        margin-left: 20%;
+        text-decoration: underline;
+    }
+
+    .content {
+        /* padding-top: 0px; */
+        /* font-size: 10px; */
+        font-size: 16px;
+        margin-left: 5%;
+        padding-right: 10%;
+    }
+
+    .one-word-main-name {
+        /* margin-left: 300px; */
+        margin-left: 40%;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1440px) {
+    body {}
+
+    ul {
+        width: 100%;
+        height: 85px;
+    }
+
+    .icon {
+        width: 70px;
+        padding-left: 20px;
+        padding-top: 8px;
+    }
+
+    .name {
+        font-size: 32px;
+    }
+
+    .name1 {
+        width: 20px;
+        margin-left: 5px;
+    }
+
+    .navigation {
+        padding-left: 310px;
+        /* margin: 10pc; */
+        align-items: center;
+
+    }
+
+    .mobile-nav-icon {
+        display: none;
+    }
+
+    .nav {
+        font-size: 20px;
+        padding: 20px;
+    }
+
+    .search {
+        padding-left: 120px;
+    }
+
+    input {
+        padding: 10px 15px;
+        width: 100%;
+        height: 37px;
+        font-size: 20px;
+    }
+
+    .hero {
+        padding-bottom: 120px;
+        margin-left: 30px;
+        margin-top: 115px;
+        margin-right: 580px;
+        height: 350px;
+    }
+
+    .hdg1 {
+        padding-left: 30px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        font-size: 35px;
+    }
+
+    .sub1 {
+        font-size: 18px;
+        padding-left: 30px;
+    }
+
+    .btn {
+        margin-top: -105px;
+    }
+
+    .image {
+        padding-left: 540px;
+        margin-top: -330px;
+    }
+
+    .img1 {
+        padding-left: 70px;
+        margin-left: 10px;
+        padding-top: 80px;
+        padding-bottom: 15px;
+        width: 210px;
+    }
+
+    .img2 {
+        width: 208px;
+        /* height: 200px; */
+        margin-right: -230px;
+        /* padding-left: 40px; */
+        padding-top: 80px;
+        /* padding-left: 10px; */
+    }
+
+    .img3 {
+        /* width: 200px; */
+        padding-right: -250px;
+        /* padding-top: 10px; */
+        padding-left: 140px;
+        margin-top: -10px;
+    }
+
+    .img4 {
+        display: none;
+    }
+
+    .sec {
+        font-size: 30px;
+        padding-top: 15px;
+        padding-left: 40px;
+        width: 96.5%;
+        padding-bottom: 15px;
+    }
+
+    .new {
+        padding-top: 300px;
+    }
+
+    .cards {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 10px));
+        /* gap: 10px; */
+        padding: 0 0 80px 30px;
+        height: 200px;
+    }
+
+    .card {
+        width: 250px;
+    }
+
+    .gamepage {
+        padding-top: 110px;
+    }
+
+    .game {
+        width: 250px;
+    }
+
+    .gmname {
+        padding-left: 5px;
+        margin-top: -0px;
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    .devname {
+        padding-left: 5px;
+        margin-top: -9px;
+        font-size: 10px;
+        font-weight: 400;
+    }
+
+    .tag {
+        padding-left: 5px;
+        font-size: 12px;
+        margin-top: -10px;
+        font-weight: 400;
+    }
+
+    .bemuse {
+        margin-top: 30px;
+    }
+
+    .bemusename {
+        margin-top: 30px;
+    }
+
+    .hextris_card {
+        width: 250px;
+        height: 195px;
+        /* border-radius: 16px; */
+    }
+
+    .event-horizon-png {
+        height: 195px;
+        width: 250px;
+    }
+
+    .frame {
+        width: 100%;
+        height: 500px;
+        padding-top: 120px;
+    }
+
+    .quadrilactic-frame {
+        width: 100%;
+        height: 500px;
+        padding-top: 120px;
+        zoom: 70%;
+    }
+
+    .quadrilactic-contant {
+        padding-top: 230px;
+    }
+
+    .gamename {
+        /* margin-left: 277px; */
+        font-size: 25px;
+        display: flex;
+        margin-left: 20%;
+        text-decoration: underline;
+    }
+
+    .content {
+        /* padding-top: 0px; */
+        /* font-size: 10px; */
+        font-size: 16px;
+        margin-left: 5%;
+        padding-right: 10%;
+    }
+
+    .one-word-main-name {
+        /* margin-left: 300px; */
+        margin-left: 40%;
+    }
+}
