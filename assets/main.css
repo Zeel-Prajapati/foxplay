@@ -544,6 +544,12 @@ input:focus {
     border-top-right-radius: 16px;
 }
 
+.download {
+    margin-top: 300px;
+    display: flex;
+    justify-content: center;
+}
+
 /* Mobile-S */
 @media (min-width: 320px) and (max-width: 394px) {
     body {}
